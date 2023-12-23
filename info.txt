@@ -1,0 +1,554 @@
+├─ @babel/core@npm:7.23.6
+│  ├─ Version: 7.23.6
+│  │ (\n)?
+│  │ (\n)?
+│  └─ Dependencies
+│     ├─ @ampproject/remapping@npm:^2.2.0 → npm:2.2.1
+│     ├─ @babel/code-frame@npm:^7.23.5 → npm:7.23.5
+│     ├─ @babel/generator@npm:^7.23.6 → npm:7.23.6
+│     ├─ @babel/helper-compilation-targets@npm:^7.23.6 → npm:7.23.6
+│     ├─ @babel/helpers@npm:^7.23.6 → npm:7.23.6
+│     ├─ @babel/parser@npm:^7.23.6 → npm:7.23.6
+│     ├─ @babel/template@npm:^7.22.15 → npm:7.22.15
+│     ├─ @babel/traverse@npm:^7.23.6 → npm:7.23.6
+│     ├─ @babel/types@npm:^7.23.6 → npm:7.23.6
+│     ├─ convert-source-map@npm:^2.0.0 → npm:2.0.0
+│     ├─ gensync@npm:^1.0.0-beta.2 → npm:1.0.0-beta.2
+│     ├─ json5@npm:^2.2.3 → npm:2.2.3
+│     ├─ semver@npm:^6.3.1 → npm:6.3.1
+│     ├─ @babel/helper-module-transforms@npm:^7.23.3 → npm:7.23.3 [a490b]
+│     └─ debug@npm:^4.3.1 → npm:4.3.4 [2f4f5]
+│
+├─ @babel/eslint-parser@npm:7.23.3
+│  ├─ Instances: 1
+│  ├─ Version: 7.23.3
+│  │ (\n)?
+│  │ (\n)?
+│  └─ Dependencies
+│     ├─ @nicolo-ribaudo/eslint-scope-5-internals@npm:5.1.1-v1 → npm:5.1.1-v1
+│     ├─ eslint-visitor-keys@npm:^2.1.0 → npm:2.1.0
+│     └─ semver@npm:^6.3.1 → npm:6.3.1
+│
+├─ @babel/plugin-proposal-decorators@npm:7.23.6
+│  ├─ Instances: 1
+│  ├─ Version: 7.23.6
+│  │ (\n)?
+│  │ (\n)?
+│  └─ Dependencies
+│     ├─ @babel/helper-create-class-features-plugin@npm:^7.23.6 → npm:7.23.6
+│     ├─ @babel/helper-plugin-utils@npm:^7.22.5 → npm:7.22.5
+│     ├─ @babel/helper-replace-supers@npm:^7.22.20 → npm:7.22.20
+│     ├─ @babel/helper-skip-transparent-expression-wrappers@npm:^7.22.5 → npm:7.22.5
+│     ├─ @babel/helper-split-export-declaration@npm:^7.22.6 → npm:7.22.6
+│     └─ @babel/plugin-syntax-decorators@npm:^7.23.3 → npm:7.23.3
+│
+├─ @babel/plugin-transform-class-properties@npm:7.23.3
+│  ├─ Instances: 1
+│  ├─ Version: 7.23.3
+│  │ (\n)?
+│  │ (\n)?
+│  └─ Dependencies
+│     ├─ @babel/helper-create-class-features-plugin@npm:^7.22.15 → npm:7.23.6
+│     └─ @babel/helper-plugin-utils@npm:^7.22.5 → npm:7.22.5
+│
+├─ @babel/plugin-transform-runtime@npm:7.23.6
+│  ├─ Instances: 1
+│  ├─ Version: 7.23.6
+│  │ (\n)?
+│  │ (\n)?
+│  └─ Dependencies
+│     ├─ @babel/helper-module-imports@npm:^7.22.15 → npm:7.22.15
+│     ├─ @babel/helper-plugin-utils@npm:^7.22.5 → npm:7.22.5
+│     ├─ babel-plugin-polyfill-corejs2@npm:^0.4.6 → npm:0.4.7
+│     ├─ babel-plugin-polyfill-corejs3@npm:^0.8.5 → npm:0.8.7
+│     ├─ babel-plugin-polyfill-regenerator@npm:^0.5.3 → npm:0.5.4
+│     └─ semver@npm:^6.3.1 → npm:6.3.1
+│
+├─ @babel/preset-env@npm:7.23.6
+│  ├─ Instances: 1
+│  ├─ Version: 7.23.6
+│  │ (\n)?
+│  │ (\n)?
+│  └─ Dependencies
+│     ├─ @babel/compat-data@npm:^7.23.5 → npm:7.23.5
+│     ├─ @babel/helper-compilation-targets@npm:^7.23.6 → npm:7.23.6
+│     ├─ @babel/helper-plugin-utils@npm:^7.22.5 → npm:7.22.5
+│     ├─ @babel/helper-validator-option@npm:^7.23.5 → npm:7.23.5
+│     ├─ @babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression@npm:^7.23.3 → npm:7.23.3
+│     ├─ @babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining@npm:^7.23.3 → npm:7.23.3
+│     ├─ @babel/plugin-bugfix-v8-static-class-fields-redefine-readonly@npm:^7.23.3 → npm:7.23.3
+│     ├─ @babel/plugin-proposal-private-property-in-object@npm:7.21.0-placeholder-for-preset-env.2 → npm:7.21.0-placeholder-for-preset-env.2
+│     ├─ @babel/plugin-syntax-async-generators@npm:^7.8.4 → npm:7.8.4
+│     ├─ @babel/plugin-syntax-class-properties@npm:^7.12.13 → npm:7.12.13
+│     ├─ @babel/plugin-syntax-class-static-block@npm:^7.14.5 → npm:7.14.5
+│     ├─ @babel/plugin-syntax-dynamic-import@npm:^7.8.3 → npm:7.8.3
+│     ├─ @babel/plugin-syntax-export-namespace-from@npm:^7.8.3 → npm:7.8.3
+│     ├─ @babel/plugin-syntax-import-assertions@npm:^7.23.3 → npm:7.23.3
+│     ├─ @babel/plugin-syntax-import-attributes@npm:^7.23.3 → npm:7.23.3
+│     ├─ @babel/plugin-syntax-import-meta@npm:^7.10.4 → npm:7.10.4
+│     ├─ @babel/plugin-syntax-json-strings@npm:^7.8.3 → npm:7.8.3
+│     ├─ @babel/plugin-syntax-logical-assignment-operators@npm:^7.10.4 → npm:7.10.4
+│     ├─ @babel/plugin-syntax-nullish-coalescing-operator@npm:^7.8.3 → npm:7.8.3
+│     ├─ @babel/plugin-syntax-numeric-separator@npm:^7.10.4 → npm:7.10.4
+│     ├─ @babel/plugin-syntax-object-rest-spread@npm:^7.8.3 → npm:7.8.3
+│     ├─ @babel/plugin-syntax-optional-catch-binding@npm:^7.8.3 → npm:7.8.3
+│     ├─ @babel/plugin-syntax-optional-chaining@npm:^7.8.3 → npm:7.8.3
+│     ├─ @babel/plugin-syntax-private-property-in-object@npm:^7.14.5 → npm:7.14.5
+│     ├─ @babel/plugin-syntax-top-level-await@npm:^7.14.5 → npm:7.14.5
+│     ├─ @babel/plugin-syntax-unicode-sets-regex@npm:^7.18.6 → npm:7.18.6
+│     ├─ @babel/plugin-transform-arrow-functions@npm:^7.23.3 → npm:7.23.3
+│     ├─ @babel/plugin-transform-async-generator-functions@npm:^7.23.4 → npm:7.23.4
+│     ├─ @babel/plugin-transform-async-to-generator@npm:^7.23.3 → npm:7.23.3
+│     ├─ @babel/plugin-transform-block-scoped-functions@npm:^7.23.3 → npm:7.23.3
+│     ├─ @babel/plugin-transform-block-scoping@npm:^7.23.4 → npm:7.23.4
+│     ├─ @babel/plugin-transform-class-properties@npm:^7.23.3 → npm:7.23.3
+│     ├─ @babel/plugin-transform-class-static-block@npm:^7.23.4 → npm:7.23.4
+│     ├─ @babel/plugin-transform-classes@npm:^7.23.5 → npm:7.23.5
+│     ├─ @babel/plugin-transform-computed-properties@npm:^7.23.3 → npm:7.23.3
+│     ├─ @babel/plugin-transform-destructuring@npm:^7.23.3 → npm:7.23.3
+│     ├─ @babel/plugin-transform-dotall-regex@npm:^7.23.3 → npm:7.23.3
+│     ├─ @babel/plugin-transform-duplicate-keys@npm:^7.23.3 → npm:7.23.3
+│     ├─ @babel/plugin-transform-dynamic-import@npm:^7.23.4 → npm:7.23.4
+│     ├─ @babel/plugin-transform-exponentiation-operator@npm:^7.23.3 → npm:7.23.3
+│     ├─ @babel/plugin-transform-export-namespace-from@npm:^7.23.4 → npm:7.23.4
+│     ├─ @babel/plugin-transform-for-of@npm:^7.23.6 → npm:7.23.6
+│     ├─ @babel/plugin-transform-function-name@npm:^7.23.3 → npm:7.23.3
+│     ├─ @babel/plugin-transform-json-strings@npm:^7.23.4 → npm:7.23.4
+│     ├─ @babel/plugin-transform-literals@npm:^7.23.3 → npm:7.23.3
+│     ├─ @babel/plugin-transform-logical-assignment-operators@npm:^7.23.4 → npm:7.23.4
+│     ├─ @babel/plugin-transform-member-expression-literals@npm:^7.23.3 → npm:7.23.3
+│     ├─ @babel/plugin-transform-modules-amd@npm:^7.23.3 → npm:7.23.3
+│     ├─ @babel/plugin-transform-modules-commonjs@npm:^7.23.3 → npm:7.23.3
+│     ├─ @babel/plugin-transform-modules-systemjs@npm:^7.23.3 → npm:7.23.3
+│     ├─ @babel/plugin-transform-modules-umd@npm:^7.23.3 → npm:7.23.3
+│     ├─ @babel/plugin-transform-named-capturing-groups-regex@npm:^7.22.5 → npm:7.22.5
+│     ├─ @babel/plugin-transform-new-target@npm:^7.23.3 → npm:7.23.3
+│     ├─ @babel/plugin-transform-nullish-coalescing-operator@npm:^7.23.4 → npm:7.23.4
+│     ├─ @babel/plugin-transform-numeric-separator@npm:^7.23.4 → npm:7.23.4
+│     ├─ @babel/plugin-transform-object-rest-spread@npm:^7.23.4 → npm:7.23.4
+│     ├─ @babel/plugin-transform-object-super@npm:^7.23.3 → npm:7.23.3
+│     ├─ @babel/plugin-transform-optional-catch-binding@npm:^7.23.4 → npm:7.23.4
+│     ├─ @babel/plugin-transform-optional-chaining@npm:^7.23.4 → npm:7.23.4
+│     ├─ @babel/plugin-transform-parameters@npm:^7.23.3 → npm:7.23.3
+│     ├─ @babel/plugin-transform-private-methods@npm:^7.23.3 → npm:7.23.3
+│     ├─ @babel/plugin-transform-private-property-in-object@npm:^7.23.4 → npm:7.23.4
+│     ├─ @babel/plugin-transform-property-literals@npm:^7.23.3 → npm:7.23.3
+│     ├─ @babel/plugin-transform-regenerator@npm:^7.23.3 → npm:7.23.3
+│     ├─ @babel/plugin-transform-reserved-words@npm:^7.23.3 → npm:7.23.3
+│     ├─ @babel/plugin-transform-shorthand-properties@npm:^7.23.3 → npm:7.23.3
+│     ├─ @babel/plugin-transform-spread@npm:^7.23.3 → npm:7.23.3
+│     ├─ @babel/plugin-transform-sticky-regex@npm:^7.23.3 → npm:7.23.3
+│     ├─ @babel/plugin-transform-template-literals@npm:^7.23.3 → npm:7.23.3
+│     ├─ @babel/plugin-transform-typeof-symbol@npm:^7.23.3 → npm:7.23.3
+│     ├─ @babel/plugin-transform-unicode-escapes@npm:^7.23.3 → npm:7.23.3
+│     ├─ @babel/plugin-transform-unicode-property-regex@npm:^7.23.3 → npm:7.23.3
+│     ├─ @babel/plugin-transform-unicode-regex@npm:^7.23.3 → npm:7.23.3
+│     ├─ @babel/plugin-transform-unicode-sets-regex@npm:^7.23.3 → npm:7.23.3
+│     ├─ @babel/preset-modules@npm:0.1.6-no-external-plugins → npm:0.1.6-no-external-plugins
+│     ├─ babel-plugin-polyfill-corejs2@npm:^0.4.6 → npm:0.4.7
+│     ├─ babel-plugin-polyfill-corejs3@npm:^0.8.5 → npm:0.8.7
+│     ├─ babel-plugin-polyfill-regenerator@npm:^0.5.3 → npm:0.5.4
+│     ├─ core-js-compat@npm:^3.31.0 → npm:3.34.0
+│     └─ semver@npm:^6.3.1 → npm:6.3.1
+│
+├─ @babel/runtime@npm:7.23.6
+│  ├─ Version: 7.23.6
+│  │ (\n)?
+│  │ (\n)?
+│  └─ Dependencies
+│     └─ regenerator-runtime@npm:^0.14.0 → npm:0.14.1
+│
+├─ @haixing_hu/clone@npm:1.4.1
+│  ├─ Instances: 1
+│  └─ Version: 1.4.1
+│
+├─ @haixing_hu/common-decorator@npm:2.1.0
+│  ├─ Instances: 1
+│  └─ Version: 2.1.0
+│
+├─ @haixing_hu/common-filter@npm:1.3.0
+│  ├─ Instances: 1
+│  └─ Version: 1.3.0
+│
+├─ @haixing_hu/common-model@workspace:.
+│  ├─ Version: 3.0.0
+│  │ (\n)?
+│  │ (\n)?
+│  └─ Dependencies
+│     ├─ @babel/core@npm:^7.23.6 → npm:7.23.6
+│     ├─ @babel/runtime@npm:^7.23.6 → npm:7.23.6
+│     ├─ @haixing_hu/common-validator@npm:^3.0.1 → npm:3.0.1
+│     ├─ @haixing_hu/eslint-config@npm:^1.3.1 → npm:1.3.1
+│     ├─ @haixing_hu/jsdoc-minami@npm:^1.5.1 → npm:1.5.1
+│     ├─ babel-plugin-transform-object-hasown@npm:^1.1.0 → npm:1.1.0
+│     ├─ check-es-version@npm:^1.4.2 → npm:1.4.2
+│     ├─ core-js@npm:^3.33.0 → npm:3.34.0
+│     ├─ cross-env@npm:^7.0.3 → npm:7.0.3
+│     ├─ dayjs@npm:^1.11.10 → npm:1.11.10
+│     ├─ eslint@npm:^8.49.0 → npm:8.56.0
+│     ├─ jsdoc@npm:^4.0.2 → npm:4.0.2
+│     ├─ rollup-plugin-analyzer@npm:^4.0.0 → npm:4.0.0
+│     ├─ rollup@npm:^4.1.3 → npm:4.9.1
+│     ├─ @babel/eslint-parser@npm:^7.23.3 → npm:7.23.3 [d039e]
+│     ├─ @babel/plugin-proposal-decorators@npm:^7.23.6 → npm:7.23.6 [d039e]
+│     ├─ @babel/plugin-transform-class-properties@npm:^7.23.3 → npm:7.23.3 [d039e]
+│     ├─ @babel/plugin-transform-runtime@npm:^7.23.6 → npm:7.23.6 [d039e]
+│     ├─ @babel/preset-env@npm:^7.23.6 → npm:7.23.6 [d039e]
+│     ├─ @haixing_hu/clone@npm:^1.4.1 → npm:1.4.1 [d039e]
+│     ├─ @haixing_hu/common-decorator@npm:^2.1.0 → npm:2.1.0 [d039e]
+│     ├─ @haixing_hu/common-filter@npm:^1.3.0 → npm:1.3.0 [d039e]
+│     ├─ @haixing_hu/common-util@npm:^4.4.0 → npm:4.4.0 [d039e]
+│     ├─ @haixing_hu/logging@npm:^1.2.1 → npm:1.2.1 [d039e]
+│     ├─ @haixing_hu/rollup-builder@npm:^1.5.0 → npm:1.5.0 [d039e]
+│     ├─ @haixing_hu/typeinfo@npm:^2.3.0 → npm:2.3.0 [d039e]
+│     ├─ @jest/core@npm:^29.7.0 → npm:29.7.0 [d039e]
+│     ├─ @rollup/plugin-alias@npm:^5.0.1 → npm:5.1.0 [d039e]
+│     ├─ @rollup/plugin-babel@npm:^6.0.4 → npm:6.0.4 [d039e]
+│     ├─ @rollup/plugin-commonjs@npm:^25.0.7 → npm:25.0.7 [d039e]
+│     ├─ @rollup/plugin-node-resolve@npm:^15.2.3 → npm:15.2.3 [d039e]
+│     ├─ @rollup/plugin-terser@npm:^0.4.4 → npm:0.4.4 [d039e]
+│     ├─ eslint-plugin-import@npm:^2.28.1 → npm:2.29.1 [3c2e0]
+│     ├─ eslint-plugin-vue@npm:^9.17.0 → npm:9.19.2 [d039e]
+│     ├─ jest-environment-jsdom-global@npm:^4.0.0 → npm:4.0.0 [d039e]
+│     ├─ jest-environment-jsdom@npm:^29.7.0 → npm:29.7.0 [d039e]
+│     ├─ jest-extended@npm:^4.0.1 → npm:4.0.2 [d039e]
+│     └─ jest@npm:^29.7.0 → npm:29.7.0 [d039e]
+│
+├─ @haixing_hu/common-util@npm:4.4.0
+│  ├─ Instances: 1
+│  ├─ Version: 4.4.0
+│  │ (\n)?
+│  │ (\n)?
+│  └─ Dependencies
+│     ├─ deep-equal@npm:^2.0.5 → npm:2.2.3
+│     ├─ json-beautify@npm:^1.1.1 → npm:1.1.1
+│     └─ qs@npm:^6.11.0 → npm:6.11.2
+│
+├─ @haixing_hu/common-validator@npm:3.0.1
+│  ├─ Version: 3.0.1
+│  │ (\n)?
+│  │ (\n)?
+│  └─ Dependencies
+│     ├─ email-validator@npm:^2.0.4 → npm:2.0.4
+│     └─ node-uri@npm:^1.1.2 → npm:1.1.2
+│
+├─ @haixing_hu/eslint-config@npm:1.3.1
+│  ├─ Version: 1.3.1
+│  │ (\n)?
+│  │ (\n)?
+│  └─ Dependencies
+│     ├─ eslint@npm:^8.12.0 → npm:8.56.0
+│     ├─ eslint-config-airbnb-base@npm:^15.0.0 → npm:15.0.0 [3c2e0]
+│     └─ eslint-plugin-import@npm:^2.28.1 → npm:2.29.1 [3c2e0]
+│
+├─ @haixing_hu/jsdoc-minami@npm:1.5.1
+│  ├─ Version: 1.5.1
+│  │ (\n)?
+│  │ (\n)?
+│  └─ Dependencies
+│     ├─ jsdoc@npm:^4.0.2 → npm:4.0.2
+│     └─ taffydb@npm:^2.7.3 → npm:2.7.3
+│
+├─ @haixing_hu/logging@npm:1.2.1
+│  ├─ Instances: 1
+│  └─ Version: 1.2.1
+│
+├─ @haixing_hu/rollup-builder@npm:1.5.0
+│  ├─ Instances: 1
+│  └─ Version: 1.5.0
+│
+├─ @haixing_hu/typeinfo@npm:2.3.0
+│  ├─ Instances: 1
+│  └─ Version: 2.3.0
+│
+├─ @jest/core@npm:29.7.0
+│  ├─ Instances: 1
+│  ├─ Version: 29.7.0
+│  │ (\n)?
+│  │ (\n)?
+│  └─ Dependencies
+│     ├─ @jest/console@npm:^29.7.0 → npm:29.7.0
+│     ├─ @jest/reporters@npm:^29.7.0 → npm:29.7.0
+│     ├─ @jest/test-result@npm:^29.7.0 → npm:29.7.0
+│     ├─ @jest/transform@npm:^29.7.0 → npm:29.7.0
+│     ├─ @jest/types@npm:^29.6.3 → npm:29.6.3
+│     ├─ @types/node@npm:* → npm:20.10.5
+│     ├─ ansi-escapes@npm:^4.2.1 → npm:4.3.2
+│     ├─ chalk@npm:^4.0.0 → npm:4.1.2
+│     ├─ ci-info@npm:^3.2.0 → npm:3.9.0
+│     ├─ exit@npm:^0.1.2 → npm:0.1.2
+│     ├─ graceful-fs@npm:^4.2.9 → npm:4.2.11
+│     ├─ jest-changed-files@npm:^29.7.0 → npm:29.7.0
+│     ├─ jest-config@npm:^29.7.0 → npm:29.7.0
+│     ├─ jest-haste-map@npm:^29.7.0 → npm:29.7.0
+│     ├─ jest-message-util@npm:^29.7.0 → npm:29.7.0
+│     ├─ jest-regex-util@npm:^29.6.3 → npm:29.6.3
+│     ├─ jest-resolve-dependencies@npm:^29.7.0 → npm:29.7.0
+│     ├─ jest-resolve@npm:^29.7.0 → npm:29.7.0
+│     ├─ jest-runner@npm:^29.7.0 → npm:29.7.0
+│     ├─ jest-runtime@npm:^29.7.0 → npm:29.7.0
+│     ├─ jest-snapshot@npm:^29.7.0 → npm:29.7.0
+│     ├─ jest-util@npm:^29.7.0 → npm:29.7.0
+│     ├─ jest-validate@npm:^29.7.0 → npm:29.7.0
+│     ├─ jest-watcher@npm:^29.7.0 → npm:29.7.0
+│     ├─ micromatch@npm:^4.0.4 → npm:4.0.5
+│     ├─ pretty-format@npm:^29.7.0 → npm:29.7.0
+│     ├─ slash@npm:^3.0.0 → npm:3.0.0
+│     └─ strip-ansi@npm:^6.0.0 → npm:6.0.1
+│
+├─ @rollup/plugin-alias@npm:5.1.0
+│  ├─ Instances: 1
+│  ├─ Version: 5.1.0
+│  │ (\n)?
+│  │ (\n)?
+│  └─ Dependencies
+│     └─ slash@npm:^4.0.0 → npm:4.0.0
+│
+├─ @rollup/plugin-babel@npm:6.0.4
+│  ├─ Instances: 1
+│  ├─ Version: 6.0.4
+│  │ (\n)?
+│  │ (\n)?
+│  └─ Dependencies
+│     ├─ @babel/helper-module-imports@npm:^7.18.6 → npm:7.22.15
+│     └─ @rollup/pluginutils@npm:^5.0.1 → npm:5.1.0
+│
+├─ @rollup/plugin-commonjs@npm:25.0.7
+│  ├─ Instances: 1
+│  ├─ Version: 25.0.7
+│  │ (\n)?
+│  │ (\n)?
+│  └─ Dependencies
+│     ├─ @rollup/pluginutils@npm:^5.0.1 → npm:5.1.0
+│     ├─ commondir@npm:^1.0.1 → npm:1.0.1
+│     ├─ estree-walker@npm:^2.0.2 → npm:2.0.2
+│     ├─ glob@npm:^8.0.3 → npm:8.1.0
+│     ├─ is-reference@npm:1.2.1 → npm:1.2.1
+│     └─ magic-string@npm:^0.30.3 → npm:0.30.5
+│
+├─ @rollup/plugin-node-resolve@npm:15.2.3
+│  ├─ Instances: 1
+│  ├─ Version: 15.2.3
+│  │ (\n)?
+│  │ (\n)?
+│  └─ Dependencies
+│     ├─ @rollup/pluginutils@npm:^5.0.1 → npm:5.1.0
+│     ├─ @types/resolve@npm:1.20.2 → npm:1.20.2
+│     ├─ deepmerge@npm:^4.2.2 → npm:4.3.1
+│     ├─ is-builtin-module@npm:^3.2.1 → npm:3.2.1
+│     ├─ is-module@npm:^1.0.0 → npm:1.0.0
+│     └─ resolve@patch:resolve@npm%3A^1.22.1#optional!builtin<compat/resolve> → patch:resolve@npm%3A1.22.8#optional!builtin<compat/resolve>::version=1.22.8&hash=c3c19d
+│
+├─ @rollup/plugin-terser@npm:0.4.4
+│  ├─ Instances: 1
+│  ├─ Version: 0.4.4
+│  │ (\n)?
+│  │ (\n)?
+│  └─ Dependencies
+│     ├─ serialize-javascript@npm:^6.0.1 → npm:6.0.1
+│     ├─ smob@npm:^1.0.0 → npm:1.4.1
+│     └─ terser@npm:^5.17.4 → npm:5.26.0
+│
+├─ babel-plugin-transform-object-hasown@npm:1.1.0
+│  └─ Version: 1.1.0
+│
+├─ check-es-version@npm:1.4.2
+│  ├─ Version: 1.4.2
+│  │ (\n)?
+│  │ (\n)?
+│  ├─ Exported Binaries
+│  │  └─ check-es-version
+│  └─ Dependencies
+│     ├─ acorn@npm:^8.8.0 → npm:8.11.2
+│     └─ yargs@npm:^17.5.1 → npm:17.7.2
+│
+├─ core-js@npm:3.34.0
+│  └─ Version: 3.34.0
+│
+├─ cross-env@npm:7.0.3
+│  ├─ Version: 7.0.3
+│  │ (\n)?
+│  │ (\n)?
+│  ├─ Exported Binaries
+│  │  ├─ cross-env
+│  │  └─ cross-env-shell
+│  │ (\n)?
+│  │ (\n)?
+│  └─ Dependencies
+│     └─ cross-spawn@npm:^7.0.1 → npm:7.0.3
+│
+├─ dayjs@npm:1.11.10
+│  └─ Version: 1.11.10
+│
+├─ eslint-plugin-import@npm:2.29.1
+│  ├─ Instances: 1
+│  ├─ Version: 2.29.1
+│  │ (\n)?
+│  │ (\n)?
+│  └─ Dependencies
+│     ├─ array-includes@npm:^3.1.7 → npm:3.1.7
+│     ├─ array.prototype.findlastindex@npm:^1.2.3 → npm:1.2.3
+│     ├─ array.prototype.flat@npm:^1.3.2 → npm:1.3.2
+│     ├─ array.prototype.flatmap@npm:^1.3.2 → npm:1.3.2
+│     ├─ debug@npm:^3.2.7 → npm:3.2.7
+│     ├─ doctrine@npm:^2.1.0 → npm:2.1.0
+│     ├─ eslint-import-resolver-node@npm:^0.3.9 → npm:0.3.9
+│     ├─ eslint-module-utils@npm:^2.8.0 → npm:2.8.0
+│     ├─ hasown@npm:^2.0.0 → npm:2.0.0
+│     ├─ is-core-module@npm:^2.13.1 → npm:2.13.1
+│     ├─ is-glob@npm:^4.0.3 → npm:4.0.3
+│     ├─ minimatch@npm:^3.1.2 → npm:3.1.2
+│     ├─ object.fromentries@npm:^2.0.7 → npm:2.0.7
+│     ├─ object.groupby@npm:^1.0.1 → npm:1.0.1
+│     ├─ object.values@npm:^1.1.7 → npm:1.1.7
+│     ├─ semver@npm:^6.3.1 → npm:6.3.1
+│     └─ tsconfig-paths@npm:^3.15.0 → npm:3.15.0
+│
+├─ eslint-plugin-vue@npm:9.19.2
+│  ├─ Instances: 1
+│  ├─ Version: 9.19.2
+│  │ (\n)?
+│  │ (\n)?
+│  └─ Dependencies
+│     ├─ @eslint-community/eslint-utils@npm:^4.4.0 → npm:4.4.0
+│     ├─ natural-compare@npm:^1.4.0 → npm:1.4.0
+│     ├─ nth-check@npm:^2.1.1 → npm:2.1.1
+│     ├─ postcss-selector-parser@npm:^6.0.13 → npm:6.0.13
+│     ├─ semver@npm:^7.5.4 → npm:7.5.4
+│     ├─ vue-eslint-parser@npm:^9.3.1 → npm:9.3.2
+│     └─ xml-name-validator@npm:^4.0.0 → npm:4.0.0
+│
+├─ eslint@npm:8.56.0
+│  ├─ Version: 8.56.0
+│  │ (\n)?
+│  │ (\n)?
+│  ├─ Exported Binaries
+│  │  └─ eslint
+│  └─ Dependencies
+│     ├─ @eslint-community/regexpp@npm:^4.6.1 → npm:4.10.0
+│     ├─ @eslint/eslintrc@npm:^2.1.4 → npm:2.1.4
+│     ├─ @eslint/js@npm:8.56.0 → npm:8.56.0
+│     ├─ @humanwhocodes/config-array@npm:^0.11.13 → npm:0.11.13
+│     ├─ @humanwhocodes/module-importer@npm:^1.0.1 → npm:1.0.1
+│     ├─ @nodelib/fs.walk@npm:^1.2.8 → npm:1.2.8
+│     ├─ @ungap/structured-clone@npm:^1.2.0 → npm:1.2.0
+│     ├─ ajv@npm:^6.12.4 → npm:6.12.6
+│     ├─ chalk@npm:^4.0.0 → npm:4.1.2
+│     ├─ cross-spawn@npm:^7.0.2 → npm:7.0.3
+│     ├─ doctrine@npm:^3.0.0 → npm:3.0.0
+│     ├─ escape-string-regexp@npm:^4.0.0 → npm:4.0.0
+│     ├─ eslint-scope@npm:^7.2.2 → npm:7.2.2
+│     ├─ eslint-visitor-keys@npm:^3.4.3 → npm:3.4.3
+│     ├─ espree@npm:^9.6.1 → npm:9.6.1
+│     ├─ esquery@npm:^1.4.2 → npm:1.5.0
+│     ├─ esutils@npm:^2.0.2 → npm:2.0.3
+│     ├─ fast-deep-equal@npm:^3.1.3 → npm:3.1.3
+│     ├─ file-entry-cache@npm:^6.0.1 → npm:6.0.1
+│     ├─ find-up@npm:^5.0.0 → npm:5.0.0
+│     ├─ glob-parent@npm:^6.0.2 → npm:6.0.2
+│     ├─ globals@npm:^13.19.0 → npm:13.24.0
+│     ├─ graphemer@npm:^1.4.0 → npm:1.4.0
+│     ├─ ignore@npm:^5.2.0 → npm:5.3.0
+│     ├─ imurmurhash@npm:^0.1.4 → npm:0.1.4
+│     ├─ is-glob@npm:^4.0.0 → npm:4.0.3
+│     ├─ is-path-inside@npm:^3.0.3 → npm:3.0.3
+│     ├─ js-yaml@npm:^4.1.0 → npm:4.1.0
+│     ├─ json-stable-stringify-without-jsonify@npm:^1.0.1 → npm:1.0.1
+│     ├─ levn@npm:^0.4.1 → npm:0.4.1
+│     ├─ lodash.merge@npm:^4.6.2 → npm:4.6.2
+│     ├─ minimatch@npm:^3.1.2 → npm:3.1.2
+│     ├─ natural-compare@npm:^1.4.0 → npm:1.4.0
+│     ├─ optionator@npm:^0.9.3 → npm:0.9.3
+│     ├─ strip-ansi@npm:^6.0.1 → npm:6.0.1
+│     ├─ text-table@npm:^0.2.0 → npm:0.2.0
+│     ├─ @eslint-community/eslint-utils@npm:^4.2.0 → npm:4.4.0 [6eec3]
+│     └─ debug@npm:^4.3.1 → npm:4.3.4 [2f4f5]
+│
+├─ jest-environment-jsdom-global@npm:4.0.0
+│  ├─ Instances: 1
+│  └─ Version: 4.0.0
+│
+├─ jest-environment-jsdom@npm:29.7.0
+│  ├─ Instances: 1
+│  ├─ Version: 29.7.0
+│  │ (\n)?
+│  │ (\n)?
+│  └─ Dependencies
+│     ├─ @jest/environment@npm:^29.7.0 → npm:29.7.0
+│     ├─ @jest/fake-timers@npm:^29.7.0 → npm:29.7.0
+│     ├─ @jest/types@npm:^29.6.3 → npm:29.6.3
+│     ├─ @types/jsdom@npm:^20.0.0 → npm:20.0.1
+│     ├─ @types/node@npm:* → npm:20.10.5
+│     ├─ jest-mock@npm:^29.7.0 → npm:29.7.0
+│     ├─ jest-util@npm:^29.7.0 → npm:29.7.0
+│     └─ jsdom@npm:^20.0.0 → npm:20.0.3
+│
+├─ jest-extended@npm:4.0.2
+│  ├─ Instances: 1
+│  ├─ Version: 4.0.2
+│  │ (\n)?
+│  │ (\n)?
+│  └─ Dependencies
+│     ├─ jest-diff@npm:^29.0.0 → npm:29.7.0
+│     └─ jest-get-type@npm:^29.0.0 → npm:29.6.3
+│
+├─ jest@npm:29.7.0
+│  ├─ Instances: 1
+│  ├─ Version: 29.7.0
+│  │ (\n)?
+│  │ (\n)?
+│  ├─ Exported Binaries
+│  │  └─ jest
+│  └─ Dependencies
+│     ├─ @jest/core@npm:^29.7.0 → npm:29.7.0
+│     ├─ @jest/types@npm:^29.6.3 → npm:29.6.3
+│     ├─ import-local@npm:^3.0.2 → npm:3.1.0
+│     └─ jest-cli@npm:^29.7.0 → npm:29.7.0
+│
+├─ jsdoc@npm:4.0.2
+│  ├─ Version: 4.0.2
+│  │ (\n)?
+│  │ (\n)?
+│  ├─ Exported Binaries
+│  │  └─ jsdoc
+│  └─ Dependencies
+│     ├─ @babel/parser@npm:^7.20.15 → npm:7.23.6
+│     ├─ @jsdoc/salty@npm:^0.2.1 → npm:0.2.7
+│     ├─ @types/markdown-it@npm:^12.2.3 → npm:12.2.3
+│     ├─ bluebird@npm:^3.7.2 → npm:3.7.2
+│     ├─ catharsis@npm:^0.9.0 → npm:0.9.0
+│     ├─ escape-string-regexp@npm:^2.0.0 → npm:2.0.0
+│     ├─ js2xmlparser@npm:^4.0.2 → npm:4.0.2
+│     ├─ klaw@npm:^3.0.0 → npm:3.0.0
+│     ├─ markdown-it@npm:^12.3.2 → npm:12.3.2
+│     ├─ marked@npm:^4.0.10 → npm:4.3.0
+│     ├─ mkdirp@npm:^1.0.4 → npm:1.0.4
+│     ├─ requizzle@npm:^0.2.3 → npm:0.2.4
+│     ├─ strip-json-comments@npm:^3.1.0 → npm:3.1.1
+│     ├─ underscore@npm:~1.13.2 → npm:1.13.6
+│     └─ markdown-it-anchor@npm:^8.4.1 → npm:8.6.7 [9d339]
+│
+├─ rollup-plugin-analyzer@npm:4.0.0
+│  └─ Version: 4.0.0
+│
+└─ rollup@npm:4.9.1
+   ├─ Version: 4.9.1
+   │ (\n)?
+   │ (\n)?
+   ├─ Exported Binaries
+   │  └─ rollup
+   └─ Dependencies
+      ├─ @rollup/rollup-android-arm-eabi@npm:4.9.1 → npm:4.9.1
+      ├─ @rollup/rollup-android-arm64@npm:4.9.1 → npm:4.9.1
+      ├─ @rollup/rollup-darwin-arm64@npm:4.9.1 → npm:4.9.1
+      ├─ @rollup/rollup-darwin-x64@npm:4.9.1 → npm:4.9.1
+      ├─ @rollup/rollup-linux-arm-gnueabihf@npm:4.9.1 → npm:4.9.1
+      ├─ @rollup/rollup-linux-arm64-gnu@npm:4.9.1 → npm:4.9.1
+      ├─ @rollup/rollup-linux-arm64-musl@npm:4.9.1 → npm:4.9.1
+      ├─ @rollup/rollup-linux-riscv64-gnu@npm:4.9.1 → npm:4.9.1
+      ├─ @rollup/rollup-linux-x64-gnu@npm:4.9.1 → npm:4.9.1
+      ├─ @rollup/rollup-linux-x64-musl@npm:4.9.1 → npm:4.9.1
+      ├─ @rollup/rollup-win32-arm64-msvc@npm:4.9.1 → npm:4.9.1
+      ├─ @rollup/rollup-win32-ia32-msvc@npm:4.9.1 → npm:4.9.1
+      ├─ @rollup/rollup-win32-x64-msvc@npm:4.9.1 → npm:4.9.1
+      └─ fsevents@patch:fsevents@npm%3A~2.3.2#optional!builtin<compat/fsevents> → patch:fsevents@npm%3A2.3.3#optional!builtin<compat/fsevents>::version=2.3.3&hash=df0bf1
