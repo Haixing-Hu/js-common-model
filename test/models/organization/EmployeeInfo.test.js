@@ -309,12 +309,11 @@ describe('EmployeeInfo.prototype.assign', () => {
     expect(employee.internal_code).toBe('xxx-yyy');
     expect(employee.username).toBe('zhangsan');
     expect(employee.name).toBe('ZHANGSAN');
-    expect(employee.gender).toBe(Gender.MALE.value);
+    expect(employee.gender).toBe(Gender.MALE);
     expect(employee.birthday).toBe('2010-03-01');
     expect(employee.credential).toBeInstanceOf(Credential);
-    expect(employee.credential).toEqual(
-      new Credential(CredentialType.IDENTITY_CARD.value, '1234567890'),
-    );
+    expect(employee.credential)
+      .toEqual(new Credential(CredentialType.IDENTITY_CARD, '1234567890'));
     expect(employee.mobile).toBe('777888999');
     expect(employee.organization).toBeInstanceOf(Info);
     expect(employee.organization).toEqual(new Info('1001', 'njzhyl', '智慧医疗'));

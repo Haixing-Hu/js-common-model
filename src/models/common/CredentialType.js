@@ -23,15 +23,19 @@ class CredentialType {
 
   static POLICE_CARD = '中国人民武装警察警官证';
 
-  // static HONGKONG_PASSPORT = '香港特区护照/身份证明';
+  static HONGKONG_PASSPORT = '香港特区护照/身份证明';
 
-  // static MACAO_PASSPORT = '澳门特区护照/身份证明';
+  static MACAO_PASSPORT = '澳门特区护照/身份证明';
 
   static TAIWAN_RETURN_PERMIT = '台湾居民来往大陆通行证';
 
   static FOREIGNER_PERMANENT_RESIDENCE_PERMIT = '外国人永久居住证';
 
-  // static HONGKONG_MACAO_TAIWAN_RESIDENCE_PERMIT = '港澳台居住证';
+  static HONGKONG_MACAO_TAIWAN_RESIDENCE_PERMIT = '港澳台居住证';
+
+  static PRACTISING_CERTIFICATE = '执业资格证';
+
+  static TITLE_CERTIFICATE = '职称资格证';
 
   static OTHER = '其他证件';
 

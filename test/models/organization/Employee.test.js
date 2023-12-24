@@ -13,6 +13,7 @@ import {
   CredentialType,
   Gender,
   Info,
+  State,
 } from '../../../src';
 
 /**
@@ -372,7 +373,7 @@ describe('Employee.prototype.assign', () => {
     expect(employee.username).toBe('zhangsan');
     expect(employee.person_id).toBe('123');
     expect(employee.name).toBe('张三');
-    expect(employee.gender).toBe(Gender.MALE.value);
+    expect(employee.gender).toBe(Gender.MALE);
     expect(employee.birthday).toBe('2010-03-01');
     expect(employee.category).toBeInstanceOf(Info);
     expect(employee.category).toEqual(new Info('1111', 'person', '人员'));
@@ -385,20 +386,20 @@ describe('Employee.prototype.assign', () => {
     expect(employee.description).toBe('这就是张三');
     expect(employee.credential).toBeInstanceOf(Credential);
     expect(employee.credential).toEqual(
-      new Credential(CredentialType.IDENTITY_CARD.value, '1234567890'),
+      new Credential(CredentialType.IDENTITY_CARD, '1234567890'),
     );
     expect(employee.practising_certificate).toBeInstanceOf(Credential);
     expect(employee.practising_certificate).toEqual(
-      new Credential('PRACTISING_CERTIFICATE', 'ABCDEFG'),
+      new Credential(CredentialType.PRACTISING_CERTIFICATE, 'ABCDEFG'),
     );
     expect(employee.title_certificate).toBeInstanceOf(Credential);
     expect(employee.title_certificate).toEqual(
-      new Credential('TITLE_CERTIFICATE', 'HIJKLMN'),
+      new Credential(CredentialType.TITLE_CERTIFICATE, 'HIJKLMN'),
     );
     expect(employee.practising_type).toBe('工程技术');
     expect(employee.practising_scope).toBe('软件开发');
     expect(employee.job_title).toBe('软件开发工程师');
-    expect(employee.state).toBe('NORMAL');
+    expect(employee.state).toBe(State.NORMAL);
     expect(employee.comment).toBe('张三是个好同志');
     expect(employee.create_time).toBe('2022-01-23T16:02:33.000Z');
     expect(employee.modify_time).toBe('2022-01-23T18:02:33.000Z');
