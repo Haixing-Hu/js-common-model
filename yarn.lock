@@ -1490,18 +1490,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@haixing_hu/common-filter@npm:^1.3.0":
-  version: 1.3.0
-  resolution: "@haixing_hu/common-filter@npm:1.3.0"
-  peerDependencies:
-    "@babel/runtime": ^7.23.2
-    "@haixing_hu/common-util": ^4.3.0
-    "@haixing_hu/common-validator": ^3.0.0
-    dayjs: ^1.11.10
-  checksum: 189d7db96f4b259c6f1951e982622d212ba5f335cddf26556dc3f65e27ad80c94165989dc03accfb9af73614e0b52961451067ebcc919f214f83e2b5af087c90
-  languageName: node
-  linkType: hard
-
 "@haixing_hu/common-model@workspace:.":
   version: 0.0.0-use.local
   resolution: "@haixing_hu/common-model@workspace:."
@@ -1514,7 +1502,6 @@ __metadata:
     "@babel/runtime": "npm:^7.23.6"
     "@haixing_hu/clone": "npm:^1.4.1"
     "@haixing_hu/common-decorator": "npm:^2.2.0"
-    "@haixing_hu/common-filter": "npm:^1.3.0"
     "@haixing_hu/common-util": "npm:^4.4.0"
     "@haixing_hu/common-validator": "npm:^3.0.1"
     "@haixing_hu/eslint-config": "npm:^1.3.1"
@@ -1547,7 +1534,6 @@ __metadata:
     "@babel/runtime": ^7.23.6
     "@haixing_hu/clone": ^1.4.1
     "@haixing_hu/common-decorator": ^2.1.0
-    "@haixing_hu/common-filter": ^1.3.0
     "@haixing_hu/common-util": ^4.4.0
     "@haixing_hu/common-validator": ^3.0.1
     "@haixing_hu/logging": ^1.2.1

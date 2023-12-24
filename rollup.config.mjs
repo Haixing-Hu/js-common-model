@@ -8,4 +8,4 @@
 ////////////////////////////////////////////////////////////////////////////////
 import rollupBuilder from '@haixing_hu/rollup-builder';
 
-export default rollupBuilder('CommonValidator', import.meta.url);
+export default rollupBuilder('CommonModel', import.meta.url);
