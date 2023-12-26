@@ -6,7 +6,7 @@
 //    All rights reserved.
 //
 ////////////////////////////////////////////////////////////////////////////////
-import { ValidationResult } from '@haixing_hu/common-decorator';
+import { ValidationResult } from '@haixing_hu/common-validator';
 
 /**
  * 验证指定的{@link Insurant}对象的监护人是否合法。
