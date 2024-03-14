@@ -6,7 +6,10 @@
 //    All rights reserved.
 //
 ////////////////////////////////////////////////////////////////////////////////
-import { trimUppercaseString } from '@haixing_hu/common-util';
+import {
+  trimString,
+  trimUppercaseString,
+} from '@haixing_hu/common-util';
 import {
   validateIntegerField,
   validateMobileField,
@@ -26,7 +29,6 @@ import {
 import Credential from '../common/Credential';
 import CredentialType from '../common/CredentialType';
 import Gender from './Gender';
-import Contact from '../contact/Contact';
 import mix from '../mixins/mix';
 import WithBirthday from '../mixins/WithBirthday';
 import normalizeTimestamp from '../../normalizers/normalize-timestamp';
@@ -59,13 +61,12 @@ class Person extends mix(Object).with(WithBirthday) {
   name = '';
 
   /**
-   * 证件
+   * 姓名。
    */
-  @Normalizable
-  @Validatable
-  @Type(Credential)
-  @Label('证件')
-  credential = new Credential();
+  @Normalizable(trimString)
+  @Label('用户名')
+  @Nullable
+  username = '';
 
   /**
    * 性别
@@ -77,6 +78,15 @@ class Person extends mix(Object).with(WithBirthday) {
   gender = '';
 
   // birthday 属性继承自 WithBirthday
+
+  /**
+   * 证件
+   */
+  @Normalizable
+  @Validatable
+  @Type(Credential)
+  @Label('证件')
+  credential = new Credential();
 
   /**
    * 手机号码
@@ -95,15 +105,23 @@ class Person extends mix(Object).with(WithBirthday) {
   @Nullable
   email = '';
 
+  // /**
+  //  * 联系方式。
+  //  */
+  // @Normalizable
+  // @Validatable
+  // @Type(Contact)
+  // @Label('联系方式')
+  // @Nullable
+  // contact = null;
+
   /**
-   * 联系方式。
+   * 是否测试数据。
    */
   @Normalizable
-  @Validatable
-  @Type(Contact)
-  @Label('联系方式')
-  @Nullable
-  contact = null;
+  @Type(Boolean)
+  @Label('是否测试数据')
+  test = false;
 
   /**
    * 对象的创建时间。
