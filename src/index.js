@@ -32,6 +32,13 @@ import District from './models/contact/District';
 import Location from './models/contact/Location';
 import Province from './models/contact/Province';
 import Street from './models/contact/Street';
+// models/device
+import DataNetworkType from './models/device/DataNetworkType';
+import Device from './models/device/Device';
+import Hardware from './models/device/Hardware';
+import SimCard from './models/device/SimCard';
+import SimCardStatus from './models/device/SimCardStatus';
+import Software from './models/device/Software';
 // models/system
 import Environment from './models/system/Environment';
 import ErrorInfo from './models/system/ErrorInfo';
@@ -137,6 +144,13 @@ export {
   Location,
   Province,
   Street,
+  // models/device
+  DataNetworkType,
+  Device,
+  Hardware,
+  SimCard,
+  SimCardStatus,
+  Software,
   // models/system
   Environment,
   ErrorInfo,
