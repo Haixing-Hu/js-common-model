@@ -43,6 +43,7 @@ import {
 } from './models/person/Guardian';
 import Insurant from './models/person/Insurant';
 import Person from './models/person/Person';
+import User from './models/person/User';
 // models/product
 import Product from './models/product/Product';
 import Seller from './models/product/Seller';
@@ -148,6 +149,7 @@ export {
   NO_GUARDIAN_ID,
   Insurant,
   Person,
+  User,
   // models/product
   Product,
   Seller,
