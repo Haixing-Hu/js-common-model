@@ -8,7 +8,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 import { Model, Type } from '@haixing_hu/common-decorator';
 import State from '../common/State';
-import Info from '../common/Info';
+import Info from '../util/Info';
 import Owner from '../common/Owner';
 import Upload from './Upload';
 import AttachmentType from './AttachmentType';

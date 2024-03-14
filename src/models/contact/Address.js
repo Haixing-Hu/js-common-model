@@ -14,7 +14,7 @@ import {
   Nullable,
   Type,
 } from '@haixing_hu/common-decorator';
-import Info from '../common/Info';
+import Info from '../util/Info';
 import Location from './Location';
 
 /**

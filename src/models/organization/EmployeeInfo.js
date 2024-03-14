@@ -19,7 +19,7 @@ import {
   Validatable,
 } from '@haixing_hu/common-decorator';
 import { trimUppercaseString } from '@haixing_hu/common-util';
-import Info from '../common/Info';
+import Info from '../util/Info';
 import Gender from '../person/Gender';
 import Credential from '../common/Credential';
 import mix from '../mixins/mix';

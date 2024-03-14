@@ -21,7 +21,7 @@ import {
 } from '@haixing_hu/common-decorator';
 import { trimUppercaseString } from '@haixing_hu/common-util';
 import Credential from '../common/Credential';
-import Info from '../common/Info';
+import Info from '../util/Info';
 import State from '../common/State';
 import Gender from '../person/Gender';
 import Contact from '../contact/Contact';

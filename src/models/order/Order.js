@@ -8,7 +8,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 import { Model, ElementType, Type } from '@haixing_hu/common-decorator';
 import Currency from '../common/Currency';
-import Info from '../common/Info';
+import Info from '../util/Info';
 import KeyValuePair from '../common/KeyValuePair';
 import Seller from '../product/Seller';
 import Buyer from './Buyer';

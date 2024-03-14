@@ -8,7 +8,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 import { Model, Type } from '@haixing_hu/common-decorator';
 import Credential from '../common/Credential';
-import Info from '../common/Info';
+import Info from '../util/Info';
 import Account from './Account';
 
 /**

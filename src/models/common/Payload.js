@@ -18,7 +18,7 @@ import {
   Type,
   Validatable,
 } from '@haixing_hu/common-decorator';
-import Owner from './Info';
+import Owner from '../util/Info';
 import normalizeTimestamp from '../../normalizers/normalize-timestamp';
 
 /**

@@ -16,7 +16,7 @@ import DateTimeRange from './models/common/DateTimeRange';
 import DayType from './models/common/DayType';
 import Dict from './models/common/Dict';
 import DictEntry from './models/common/DictEntry';
-import Info from './models/common/Info';
+import Info from './models/util/Info';
 import KeyValuePair from './models/common/KeyValuePair';
 import Kinship from './models/common/Kinship';
 import PageRequest from './models/common/PageRequest';

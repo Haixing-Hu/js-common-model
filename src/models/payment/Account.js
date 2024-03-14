@@ -7,7 +7,7 @@
 //
 ////////////////////////////////////////////////////////////////////////////////
 import { Model, Type } from '@haixing_hu/common-decorator';
-import Info from '../common/Info';
+import Info from '../util/Info';
 
 /**
  * 此模型表示交易的参与者。

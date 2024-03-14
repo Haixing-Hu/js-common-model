@@ -8,7 +8,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 import { Model, Type } from '@haixing_hu/common-decorator';
 import Currency from '../common/Currency';
-import Info from '../common/Info';
+import Info from '../util/Info';
 import ReturnIssuer from '../order/ReturnIssuer';
 import Participant from '../payment/Participant';
 import Payment from '../payment/Payment';

@@ -19,7 +19,7 @@ import {
   Type,
   Validatable,
 } from '@haixing_hu/common-decorator';
-import Info from '../common/Info';
+import Info from '../util/Info';
 import State from '../common/State';
 import Payload from '../common/Payload.js';
 import Contact from '../contact/Contact';

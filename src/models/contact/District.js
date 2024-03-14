@@ -18,7 +18,7 @@ import {
   Type,
   Validatable,
 } from '@haixing_hu/common-decorator';
-import Info from '../common/Info';
+import Info from '../util/Info';
 import Location from './Location';
 import normalizeTimestamp from '../../normalizers/normalize-timestamp';
 
