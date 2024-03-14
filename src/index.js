@@ -16,10 +16,10 @@ import DateTimeRange from './models/common/DateTimeRange';
 import DayType from './models/common/DayType';
 import Dict from './models/common/Dict';
 import DictEntry from './models/common/DictEntry';
-import Info from './models/util/Info';
 import KeyValuePair from './models/common/KeyValuePair';
 import Kinship from './models/common/Kinship';
 import PageRequest from './models/common/PageRequest';
+import Schedule from './models/common/Schedule';
 import State from './models/common/State';
 import TaxPayerType from './models/common/TaxPayerType';
 import TimeRange from './models/common/TimeRange';
@@ -95,6 +95,9 @@ import Organization from './models/organization/Organization';
 import Department from './models/organization/Department';
 import Employee from './models/organization/Employee';
 import EmployeeInfo from './models/organization/EmployeeInfo';
+// models/util
+import Info from './models/util/Info';
+import StatefulInfo from './models/util/StatefulInfo';
 // validators
 import validateCredentialNumberField from './validators/validate-credential-number-field';
 import validateCredentialTypeField from './validators/validate-credential-type-field';
@@ -117,9 +120,9 @@ export {
   DayType,
   Dict,
   DictEntry,
-  Info,
   Kinship,
   PageRequest,
+  Schedule,
   State,
   TaxPayerType,
   TimeRange,
@@ -198,6 +201,9 @@ export {
   Department,
   Employee,
   EmployeeInfo,
+  // models/util
+  Info,
+  StatefulInfo,
   // validators
   validateCredentialNumberField,
   validateCredentialTypeField,
