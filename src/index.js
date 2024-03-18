@@ -39,6 +39,13 @@ import Hardware from './models/device/Hardware';
 import SimCard from './models/device/SimCard';
 import SimCardStatus from './models/device/SimCardStatus';
 import Software from './models/device/Software';
+// models/feedback
+import Feedback from './models/feedback/Feedback';
+import FeedbackAction from './models/feedback/FeedbackAction';
+import FeedbackRating from './models/feedback/FeedbackRating';
+import FeedbackStatus from './models/feedback/FeedbackStatus';
+import FeedbackTrack from './models/feedback/FeedbackTrack';
+import FeedbackType from './models/feedback/FeedbackType';
 // models/system
 import Environment from './models/system/Environment';
 import ErrorInfo from './models/system/ErrorInfo';
@@ -151,6 +158,13 @@ export {
   SimCard,
   SimCardStatus,
   Software,
+  // models/feedback
+  Feedback,
+  FeedbackAction,
+  FeedbackRating,
+  FeedbackStatus,
+  FeedbackTrack,
+  FeedbackType,
   // models/system
   Environment,
   ErrorInfo,
