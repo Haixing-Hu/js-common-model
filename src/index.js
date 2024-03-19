@@ -23,6 +23,7 @@ import Schedule from './models/common/Schedule';
 import State from './models/common/State';
 import TaxPayerType from './models/common/TaxPayerType';
 import TimeRange from './models/common/TimeRange';
+import Token from './models/common/Token';
 // models/contact
 import Address from './models/contact/Address';
 import City from './models/contact/City';
@@ -113,6 +114,8 @@ import EmployeeInfo from './models/organization/EmployeeInfo';
 // models/util
 import Info from './models/util/Info';
 import StatefulInfo from './models/util/StatefulInfo';
+// models/controller
+import LoginResponse from './models/controller/LoginResponse';
 // validators
 import validateCredentialNumberField from './validators/validate-credential-number-field';
 import validateCredentialTypeField from './validators/validate-credential-type-field';
@@ -135,13 +138,14 @@ export {
   DayType,
   Dict,
   DictEntry,
+  KeyValuePair,
   Kinship,
   PageRequest,
   Schedule,
   State,
   TaxPayerType,
   TimeRange,
-  KeyValuePair,
+  Token,
   // models/contact
   Address,
   City,
@@ -234,6 +238,8 @@ export {
   // models/util
   Info,
   StatefulInfo,
+  // models/controller
+  LoginResponse,
   // validators
   validateCredentialNumberField,
   validateCredentialTypeField,
