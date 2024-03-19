@@ -7,7 +7,7 @@
 //
 ////////////////////////////////////////////////////////////////////////////////
 import {
-  Label,
+  Label, Model,
   Normalizable,
   Type, Validatable,
 } from '@haixing_hu/common-decorator';
@@ -19,6 +19,7 @@ import normalizeTimestamp from '../../normalizers/normalize-timestamp';
  *
  * @author 胡海星
  */
+@Model
 class Token {
   /**
    * 令牌的值。

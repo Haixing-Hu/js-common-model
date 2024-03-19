@@ -7,7 +7,7 @@
 //
 ////////////////////////////////////////////////////////////////////////////////
 import {
-  ElementType,
+  ElementType, Model,
   Normalizable,
   Type,
   Validatable,
@@ -15,6 +15,7 @@ import {
 import User from '../person/User';
 import Token from '../common/Token';
 
+@Model
 class LoginResponse {
   /**
    * 用户信息。
