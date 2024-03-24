@@ -42,7 +42,7 @@ class Token {
   @Normalizable(normalizeTimestamp)
   @Validatable(validateTimestampField)
   @Label('创建时间')
-  creat_time = '';
+  create_time = '';
 
   /**
    * 令牌的最大生存时间，单位为秒。
