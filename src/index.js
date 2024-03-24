@@ -51,6 +51,7 @@ import FeedbackType from './models/feedback/FeedbackType';
 import Environment from './models/system/Environment';
 import ErrorInfo from './models/system/ErrorInfo';
 import Platform from './models/system/Platform';
+import VerifyScene from './models/system/VerifyScene';
 // models/person
 import Gender from './models/person/Gender';
 import {
@@ -173,6 +174,7 @@ export {
   Environment,
   ErrorInfo,
   Platform,
+  VerifyScene,
   // models/person
   Gender,
   Guardian,
