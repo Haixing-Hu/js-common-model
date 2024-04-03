@@ -31,6 +31,8 @@ import Software from './Software';
 
 /**
  * 此模型表示硬件设备。
+ *
+ * @author 胡海星
  */
 @Model
 class Device {

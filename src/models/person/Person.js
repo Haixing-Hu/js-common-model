@@ -124,30 +124,6 @@ class Person extends mix(Object).with(WithBirthday) {
   test = false;
 
   /**
-   * 对象的创建时间。
-   *
-   * 该属性值为UTC时间戳，以ISO-8601时间戳的形式表示为字符串，其格式为
-   * `"uuuu-MM-dd[[' ']['T']HH:mm[':'ss[.SSS]]][' ']['Z'][Z][z]"`。
-   */
-  @Normalizable(normalizeTimestamp)
-  @Validatable(validateTimestampField)
-  @Label('创建时间')
-  @Nullable
-  create_time = '';
-
-  /**
-   * 对象的最后一次修改时间。
-   *
-   * 该属性值为UTC时间戳，以ISO-8601时间戳的形式表示为字符串，其格式为
-   * `"uuuu-MM-dd[[' ']['T']HH:mm[':'ss[.SSS]]][' ']['Z'][Z][z]"`。
-   */
-  @Normalizable(normalizeTimestamp)
-  @Validatable(validateTimestampField)
-  @Label('最后一次修改时间')
-  @Nullable
-  modify_time = '';
-
-  /**
    * 对象的标记删除时间。
    *
    * 该属性值为UTC时间戳，以ISO-8601时间戳的形式表示为字符串，其格式为
