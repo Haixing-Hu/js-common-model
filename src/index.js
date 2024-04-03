@@ -36,6 +36,7 @@ import Street from './models/contact/Street';
 // models/device
 import DataNetworkType from './models/device/DataNetworkType';
 import Device from './models/device/Device';
+import DeviceInfo from './models/device/DeviceInfo'
 import Hardware from './models/device/Hardware';
 import SimCard from './models/device/SimCard';
 import SimCardStatus from './models/device/SimCardStatus';
@@ -159,6 +160,7 @@ export {
   // models/device
   DataNetworkType,
   Device,
+  DeviceInfo,
   Hardware,
   SimCard,
   SimCardStatus,
