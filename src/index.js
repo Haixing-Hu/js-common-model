@@ -18,6 +18,7 @@ import Dict from './models/common/Dict';
 import DictEntry from './models/common/DictEntry';
 import KeyValuePair from './models/common/KeyValuePair';
 import Kinship from './models/common/Kinship';
+import Page from './models/common/Page';
 import PageRequest from './models/common/PageRequest';
 import Schedule from './models/common/Schedule';
 import State from './models/common/State';
@@ -142,6 +143,7 @@ export {
   DictEntry,
   KeyValuePair,
   Kinship,
+  Page,
   PageRequest,
   Schedule,
   State,
