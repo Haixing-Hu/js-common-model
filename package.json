@@ -1,6 +1,6 @@
 {
   "name": "@haixing_hu/common-model",
-  "version": "3.3.9",
+  "version": "3.4.0",
   "description": "A JavaScript ES6 library for common domain models",
   "author": "Haixing Hu (starfish.hu@gmail.com)",
   "license": "Apache-2.0",

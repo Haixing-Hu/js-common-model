@@ -65,11 +65,14 @@ class Info {
    *     新的{@link Info}对象的编码，如不提供则使用默认值''。
    * @param {String} name
    *     新的{@link Info}对象的名称，如不提供则使用默认值''。
+   * @param {String} delete_time
+   *     新的{@link Info}对象的标记删除时间，如不提供则使用默认值''。
    */
-  constructor(id = '', code = '', name = '') {
+  constructor(id = '', code = '', name = '', delete_time = '') {
     this.id = id;
     this.code = code;
     this.name = name;
+    this.delete_time = delete_time;
   }
 }
 
