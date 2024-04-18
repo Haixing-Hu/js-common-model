@@ -57,11 +57,11 @@ import Platform from './models/system/Platform';
 import VerifyScene from './models/system/VerifyScene';
 // models/person
 import Gender from './models/person/Gender';
-import {
-  Guardian, NO_GUARDIAN_NAME, NO_GUARDIAN_VALUE, NO_GUARDIAN_ID,
-} from './models/person/Guardian';
+import { Guardian, NO_GUARDIAN_NAME, NO_GUARDIAN_VALUE, NO_GUARDIAN_ID } from './models/person/Guardian';
 import Insurant from './models/person/Insurant';
 import Person from './models/person/Person';
+import SocialNetwork from './models/person/SocialNetwork';
+import SocialNetworkAccount from './models/person/SocialNetworkAccount';
 import User from './models/person/User';
 // models/product
 import Product from './models/product/Product';
@@ -190,6 +190,8 @@ export {
   NO_GUARDIAN_ID,
   Insurant,
   Person,
+  SocialNetwork,
+  SocialNetworkAccount,
   User,
   // models/product
   Product,

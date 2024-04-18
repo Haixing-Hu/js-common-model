@@ -169,7 +169,7 @@ class Device {
    * 额外参数。
    */
   @Normalizable
-  @Type(Payload)
+  @ElementType(Payload)
   @Label('额外参数')
   @Nullable
   payloads = [];
