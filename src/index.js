@@ -8,6 +8,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 // models/commons
 import App from './models/common/App';
+import Category from './models/common/Category';
 import CredentialType from './models/common/CredentialType';
 import Credential from './models/common/Credential';
 import Currency from './models/common/Currency';
@@ -116,6 +117,7 @@ import Employee from './models/organization/Employee';
 import EmployeeInfo from './models/organization/EmployeeInfo';
 // models/util
 import Info from './models/util/Info';
+import InfoWithEntity from './models/util/InfoWithEntity';
 import StatefulInfo from './models/util/StatefulInfo';
 // models/controller
 import LoginResponse from './models/controller/LoginResponse';
@@ -133,6 +135,7 @@ import normalizeTimestamp from './normalizers/normalize-timestamp';
 export {
   // models/common
   App,
+  Category,
   Credential,
   CredentialType,
   Currency,
@@ -243,6 +246,7 @@ export {
   EmployeeInfo,
   // models/util
   Info,
+  InfoWithEntity,
   StatefulInfo,
   // models/controller
   LoginResponse,
