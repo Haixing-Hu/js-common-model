@@ -18,8 +18,8 @@ import {
   Type,
   Validatable,
 } from '@haixing_hu/common-decorator';
+import { normalizeTimestamp } from '@haixing_hu/common-normalizer';
 import InfoWithEntity from '../util/InfoWithEntity';
-import normalizeTimestamp from '../../normalizers/normalize-timestamp';
 
 /**
  * 此模型表示类别。

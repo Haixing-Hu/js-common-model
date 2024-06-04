@@ -20,6 +20,7 @@ import {
   Validatable,
 } from '@haixing_hu/common-decorator';
 import { trimUppercaseString } from '@haixing_hu/common-util';
+import { normalizeTimestamp } from '@haixing_hu/common-normalizer';
 import Credential from '../common/Credential';
 import Info from '../util/Info';
 import State from '../common/State';
@@ -27,7 +28,6 @@ import Gender from '../person/Gender';
 import Contact from '../contact/Contact';
 import mix from '../mixins/mix';
 import WithBirthday from '../mixins/WithBirthday';
-import normalizeTimestamp from '../../normalizers/normalize-timestamp';
 import validatePersonNameField from '../../validators/validate-person-name-field';
 import validatePersonGenderField from '../../validators/validate-person-gender-field';
 

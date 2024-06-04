@@ -21,12 +21,14 @@ import {
   Label,
   Nullable,
 } from '@haixing_hu/common-decorator';
+import {
+  normalizeDate,
+  normalizeInteger,
+  normalizeTimestamp,
+} from '@haixing_hu/common-normalizer';
 import DictEntry from '../common/DictEntry';
 import MedicalCategory from './MedicalCategory';
 import Invoice from '../invoice/Invoice';
-import normalizeDate from '../../normalizers/normalize-date';
-import normalizeInteger from '../../normalizers/normalize-integer';
-import normalizeTimestamp from '../../normalizers/normalize-timestamp';
 
 /**
  * 此模型表示理赔申请单关联的诊疗记录。

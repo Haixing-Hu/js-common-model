@@ -19,7 +19,7 @@ import {
   validateIntegerField,
   validateTimestampField,
 } from '@haixing_hu/common-validator';
-import normalizeTimestamp from '../../normalizers/normalize-timestamp';
+import { normalizeTimestamp } from '@haixing_hu/common-normalizer';
 import User from '../person/User';
 import Attachment from '../upload/Attachment';
 import StatefulInfo from '../util/StatefulInfo';

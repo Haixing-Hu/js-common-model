@@ -18,7 +18,7 @@ import {
 import {
   validateIntegerField, validateTimestampField,
 } from '@haixing_hu/common-validator';
-import normalizeTimestamp from '../../normalizers/normalize-timestamp';
+import { normalizeTimestamp } from '@haixing_hu/common-normalizer';
 import Payload from '../common/Payload';
 import State from '../common/State';
 import Address from '../contact/Address';

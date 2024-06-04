@@ -12,7 +12,7 @@ import {
   Type, Validatable,
 } from '@haixing_hu/common-decorator';
 import { validateTimestampField } from '@haixing_hu/common-validator';
-import normalizeTimestamp from '../../normalizers/normalize-timestamp';
+import { normalizeTimestamp } from '@haixing_hu/common-normalizer';
 
 /**
  * 此对象表示令牌。

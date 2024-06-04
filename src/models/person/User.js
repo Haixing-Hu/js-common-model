@@ -17,9 +17,8 @@ import {
   validateEmailField,
   validateIntegerField, validateMobileField, validateTimestampField,
 } from '@haixing_hu/common-validator';
-import normalizeTimestamp from '../../normalizers/normalize-timestamp';
-import validatePersonGenderField
-  from '../../validators/validate-person-gender-field';
+import { normalizeTimestamp } from '@haixing_hu/common-normalizer';
+import validatePersonGenderField from '../../validators/validate-person-gender-field';
 import State from '../common/State';
 import Gender from './Gender';
 

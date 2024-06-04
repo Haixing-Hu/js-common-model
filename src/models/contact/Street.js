@@ -17,10 +17,10 @@ import {
   Nullable,
   Type,
   Validatable,
-} from '@haixing_hu/common-decorator';
+} from '@haixing_hu/common-decorator'
+import { normalizeTimestamp } from '@haixing_hu/common-normalizer';
 import Info from '../util/Info';
 import Location from './Location';
-import normalizeTimestamp from '../../normalizers/normalize-timestamp';
 
 /**
  * 此模型表示街道。

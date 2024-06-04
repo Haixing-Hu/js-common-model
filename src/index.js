@@ -127,10 +127,6 @@ import validateCredentialTypeField from './validators/validate-credential-type-f
 import validatePersonBirthdayField from './validators/validate-person-birthday-field';
 import validatePersonGenderField from './validators/validate-person-gender-field';
 import validatePersonNameField from './validators/validate-person-name-field';
-// normalizers
-import normalizeInteger from './normalizers/normalize-integer';
-import normalizeDate from './normalizers/normalize-date';
-import normalizeTimestamp from './normalizers/normalize-timestamp';
 
 export {
   // models/common
@@ -258,8 +254,4 @@ export {
   validatePersonBirthdayField,
   validatePersonGenderField,
   validatePersonNameField,
-  // normalizers
-  normalizeInteger,
-  normalizeDate,
-  normalizeTimestamp,
 };

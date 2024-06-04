@@ -7,12 +7,8 @@
 //
 ////////////////////////////////////////////////////////////////////////////////
 import dayjs from 'dayjs';
-import {
-  Label,
-  Normalizable,
-  Validatable,
-} from '@haixing_hu/common-decorator';
-import normalizeDate from '../../normalizers/normalize-date';
+import { Label, Normalizable, Validatable } from '@haixing_hu/common-decorator';
+import { normalizeDate } from '@haixing_hu/common-normalizer';
 import validatePersonBirthdayField from '../../validators/validate-person-birthday-field';
 
 /**

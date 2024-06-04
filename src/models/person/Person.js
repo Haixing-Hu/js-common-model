@@ -26,12 +26,12 @@ import {
   NameField,
   Nullable,
 } from '@haixing_hu/common-decorator';
+import { normalizeTimestamp } from '@haixing_hu/common-normalizer';
 import Credential from '../common/Credential';
 import CredentialType from '../common/CredentialType';
 import Gender from './Gender';
 import mix from '../mixins/mix';
 import WithBirthday from '../mixins/WithBirthday';
-import normalizeTimestamp from '../../normalizers/normalize-timestamp';
 import validatePersonNameField from '../../validators/validate-person-name-field';
 import validatePersonGenderField from '../../validators/validate-person-gender-field';
 

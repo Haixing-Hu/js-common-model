@@ -7,16 +7,14 @@
 //
 ////////////////////////////////////////////////////////////////////////////////
 import {
-  validateDateField,
-} from '@haixing_hu/common-validator';
-import {
   Model,
   Validatable,
   Normalizable,
   Label,
   Nullable,
 } from '@haixing_hu/common-decorator';
-import normalizeDate from '../../normalizers/normalize-date';
+import { validateDateField } from '@haixing_hu/common-validator';
+import { normalizeDate } from '@haixing_hu/common-normalizer';
 
 /**
  * 此模型表示日期范围（闭区间）。

@@ -19,9 +19,9 @@ import {
   Type,
   Validatable,
 } from '@haixing_hu/common-decorator';
+import { normalizeTimestamp } from '@haixing_hu/common-normalizer';
 import Info from '../util/Info';
 import State from './State';
-import normalizeTimestamp from '../../normalizers/normalize-timestamp';
 
 /**
  * 此模型表示应用。

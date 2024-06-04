@@ -17,7 +17,7 @@ import {
 import {
   validateIntegerField, validateTimestampField,
 } from '@haixing_hu/common-validator';
-import normalizeTimestamp from '../../normalizers/normalize-timestamp';
+import { normalizeTimestamp } from '@haixing_hu/common-normalizer';
 import State from '../common/State';
 import Person from '../person/Person';
 import StatefulInfo from '../util/StatefulInfo';

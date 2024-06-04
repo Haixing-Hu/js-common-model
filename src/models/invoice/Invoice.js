@@ -31,10 +31,10 @@ import {
   round,
   stringToMoney,
 } from '@haixing_hu/common-util';
+import { normalizeTimestamp } from '@haixing_hu/common-normalizer';
 import InvoiceSource from './InvoiceSource';
 import SelfCareItem from '../claim/SelfCareItem';
 import InvoiceStatus from './InvoiceStatus';
-import normalizeTimestamp from '../../normalizers/normalize-timestamp';
 
 /**
  * 此模型表示就诊记录关联的发票。

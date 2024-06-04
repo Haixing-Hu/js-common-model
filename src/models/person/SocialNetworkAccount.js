@@ -19,10 +19,10 @@ import {
   Label,
   Nullable,
 } from '@haixing_hu/common-decorator';
+import { normalizeTimestamp } from '@haixing_hu/common-normalizer';
 import KeyValuePair from '../common/KeyValuePair';
 import Payload from '../common/Payload';
 import SocialNetwork from './SocialNetwork';
-import normalizeTimestamp from '../../normalizers/normalize-timestamp';
 
 /**
  * 此模型表示用户在社交网络中的账号。

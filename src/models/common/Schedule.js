@@ -17,7 +17,7 @@ import {
   Nullable,
   Validatable,
 } from '@haixing_hu/common-decorator';
-import normalizeTimestamp from '../../normalizers/normalize-timestamp';
+import { normalizeTimestamp } from '@haixing_hu/common-normalizer';
 
 /**
  * 此模型表示定期执行的任务计划。
