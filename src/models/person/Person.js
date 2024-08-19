@@ -34,7 +34,7 @@ import mix from '../mixins/mix';
 import WithBirthday from '../mixins/WithBirthday';
 import validatePersonNameField from '../../validators/validate-person-name-field';
 import validatePersonGenderField from '../../validators/validate-person-gender-field';
-
+import Contact from '../contact/Contact'
 /**
  * 此模型表示个人信息
  *
@@ -108,12 +108,12 @@ class Person extends mix(Object).with(WithBirthday) {
   // /**
   //  * 联系方式。
   //  */
-  // @Normalizable
-  // @Validatable
-  // @Type(Contact)
-  // @Label('联系方式')
-  // @Nullable
-  // contact = null;
+  @Normalizable
+  @Validatable
+  @Type(Contact)
+  @Label('联系方式')
+  @Nullable
+  contact = null;
 
   /**
    * 是否测试数据。
